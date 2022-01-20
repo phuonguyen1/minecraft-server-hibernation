@@ -1,12 +1,12 @@
 {
   "Server": {
     "Folder": "{path/to/server/folder}",
-    "FileName": "{server.jar}",
+    "FileName": "server.jar",
     "Protocol": 754,
     "Version": "1.16.5"
   },
   "Commands": {
-    "StartServer": "java <Commands.StartServerParam> -jar <Server.FileName> nogui",
+    "StartServer": "java -Xmx3G -Xms3G -jar server.jar nogui",
     "StartServerParam": "-Xmx3G -Xms3G",
     "StopServer": "stop",
     "StopServerAllowKill": 10
