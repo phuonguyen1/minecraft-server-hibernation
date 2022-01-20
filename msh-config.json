@@ -2,12 +2,12 @@
   "Server": {
     "Folder": "{path/to/server/folder}",
     "FileName": "{server.jar}",
-    "Protocol": 756,
-    "Version": "1.17.1"
+    "Protocol": 754,
+    "Version": "1.16.5"
   },
   "Commands": {
     "StartServer": "java <Commands.StartServerParam> -jar <Server.FileName> nogui",
-    "StartServerParam": "-Xmx1024M -Xms1024M",
+    "StartServerParam": "-Xmx3G -Xms3G",
     "StopServer": "stop",
     "StopServerAllowKill": 10
   },
@@ -16,7 +16,7 @@
     "InfoHibernation": "                   §fserver status:\n                   §b§lHIBERNATING",
     "InfoStarting": "                   §fserver status:\n                    §6§lWARMING UP",
     "NotifyUpdate": true,
-    "ListenPort": 25555,
-    "TimeBeforeStoppingEmptyServer": 30
+    "ListenPort": 25565,
+    "TimeBeforeStoppingEmptyServer": 300
   }
 }
